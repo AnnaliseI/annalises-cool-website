@@ -1,1 +1,4 @@
 This /public/ directory is where your site stuff goes!
+bg: #ffbad4
+box: #d8ecf7
+text: #32233e
