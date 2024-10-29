@@ -1,3 +1,47 @@
-body {
-    background-color: #FFBAD4;
+/*regular css stuff*/
+html {
+    background-color: #ffcee1;
+    font-family: gaegu;
+}
+.warning {
+    text-align: center;
+    font-size: 2vw;
+    background-color: bisque;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    border-radius: 25px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 50%); 
+}
+
+.mainContent {
+    margin: auto;
+    width: 100%;
+
+}
+
+#mainBox {
+    margin: auto;
+    background-color: #b9dbef;
+    border-radius: 25px;
+    width: 75vw;
+    height: 100vw;
+    padding: 0.5vw;
+}
+
+#mainBox p {
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+}
+
+/*fonts*/
+@font-face {
+    font-family: gaegu;
+    src: url(fonts/Gaegu-Regular.ttf);
+}
+
+@font-face {
+    font-family: gaegu;
+    src: url(fonts/Gaegu-Bold.ttf);
+    font-weight: bold;
 }
