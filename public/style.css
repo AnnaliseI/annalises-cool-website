@@ -5,12 +5,12 @@ html {
 }
 .warning {
     text-align: center;
-    font-size: 2vw;
+    font-size: 2em;
     background-color: bisque;
     margin-left: 7vw;
     margin-right: 7vw;
     border-radius: 25px;
-    box-shadow: 5px 10px rgba(0, 0, 0, 50%); 
+    box-shadow: 5px 7px rgba(0, 0, 0, 50%); 
 }
 
 .mainContent {
@@ -21,7 +21,7 @@ html {
 
 #mainBox {
     margin: auto;
-    background-color: #b9dbef;
+    background-color: #c7f3ef;
     border-radius: 25px;
     width: 75vw;
     height: 100vw;
@@ -31,8 +31,13 @@ html {
 #mainBox p {
     margin-left: 1vw;
     margin-right: 1vw;
-
+    font-size: 1.5em;
 }
+
+    footer{
+        font-size: 1.2em;
+        text-align: center;
+    }
 
 /*fonts*/
 @font-face {
