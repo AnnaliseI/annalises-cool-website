@@ -15,29 +15,33 @@ html {
 
 .mainContent {
     margin: auto;
-    width: 100%;
-
-}
-
-#mainBox {
-    margin: auto;
     background-color: #c7f3ef;
     border-radius: 25px;
     width: 75vw;
     height: 100vw;
     padding: 0.5vw;
+
 }
 
-#mainBox p {
+.mainContent p, h2, ul {
     margin-left: 1vw;
     margin-right: 1vw;
     font-size: 1.5em;
 }
 
-    footer{
-        font-size: 1.2em;
-        text-align: center;
-    }
+ul ul {
+    font-size: 1em;
+}
+
+.todoLists {
+    display: inline-block;
+    vertical-align: top;
+}
+
+ footer{
+     font-size: 1.2em;
+     text-align: center;
+  }
 
 /*fonts*/
 @font-face {
