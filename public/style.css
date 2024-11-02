@@ -3,6 +3,9 @@ html {
     background-color: #ffcee1;
     font-family: gaegu;
 }
+body{
+    margin: auto;
+}
 .warning {
     text-align: center;
     font-size: 2em;
@@ -15,18 +18,27 @@ html {
 
 .mainContent {
     margin: auto;
+}
+
+#blueBox {
     background-color: #c7f3ef;
     border-radius: 25px;
     width: 75vw;
     height: 100vw;
     padding: 0.5vw;
-
 }
 
 .mainContent p, h2, ul {
     margin-left: 1vw;
     margin-right: 1vw;
     font-size: 1.5em;
+}
+
+.row {
+    display: inline-flex;
+    margin-left: 2em;
+    margin-right: 2em;
+    gap: 2em;
 }
 
 ul ul {
@@ -36,6 +48,8 @@ ul ul {
 .todoLists {
     display: inline-block;
     vertical-align: top;
+    border-style: solid;
+    flex: 1 1 0;
 }
 
  footer{
